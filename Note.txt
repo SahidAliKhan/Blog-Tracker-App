@@ -1,0 +1,2 @@
+I already created db in during azure sql db. So it modified previous db only
+i.e BlogDB
