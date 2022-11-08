@@ -17,6 +17,7 @@ namespace BlogTrackerApp.Models
         [DataType(DataType.Date)]
         public DateTime DateOfCreation { get; set; }
         public string BlogURL { get; set; }
+        [DataType(DataType.EmailAddress)]
         public string EmpEmailID { get; set; }
     }
 }

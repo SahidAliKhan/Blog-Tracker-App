@@ -10,7 +10,8 @@ namespace BlogTrackerApp.Models
     public class AdminModel
     {
         [Key]
-        [Required()]
+        [Required(ErrorMessage = "Please enter your email address")]
+        [DataType(DataType.EmailAddress)]
         public string EmailID { get; set; }
         [DataType(DataType.Password)]
         public string Password { get; set; }

@@ -12,6 +12,7 @@ namespace BlogTrackerApp.Models
         [Key]
         [DataType(DataType.Password)]
         public int Passcode { get; set; }
+        [DataType(DataType.EmailAddress)]
         public string EmailID { get; set; }
         public string Name { get; set; }
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
